@@ -2,19 +2,19 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        byte cat = 3;
-        System.out.println ("Значение переменной с типом byte равно " + cat);
-        short dog = 130;
-        System.out.println ("Значение переменной с типом short равно " + dog);
-        int monkey = 50000;
-        System.out.println ("Значение переменной с типом int равно " + monkey);
-        long house = 1200000;
-        System.out.println ("Значение переменной с типом long равно " + house);
-        float apple = 4.06f;
-        System.out.println ("Значение переменной с типом float равно " + apple);
-        double fish = 76.123;
-        System.out.println ("Значение переменной с типом double равно " + fish);
 
+        byte cat = 3;
+        System.out.println ("Значение переменной cat с типом byte равно " + cat);
+        short dog = 130;
+        System.out.println ("Значение переменной dog с типом short равно " + dog);
+        int monkey = 50000;
+        System.out.println ("Значение переменной monkey с типом int равно " + monkey);
+        long house = 1200000;
+        System.out.println ("Значение переменной house с типом long равно " + house);
+        float apple = 4.06f;
+        System.out.println ("Значение переменной apple с типом float равно " + apple);
+        double fish = 76.123;
+        System.out.println ("Значение переменной fish с типом double равно " + fish);
 
         float one = 27.12f;
         System.out.println (one);
@@ -31,10 +31,10 @@ public class Main {
         byte b1 = 67;
         System.out.println (b1);
 
-        byte lP = 23;
-        byte aS = 27;
-        byte eA = 30;
-        int students = lP + aS + eA;
+        byte ludmilaPavlovna = 23;
+        byte annaSergeevna = 27;
+        byte ekaterinaAndreevna = 30;
+        int students = ludmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
         System.out.println (students);
         short lists = 480;
         int listOnOneStudent = lists / students;
@@ -44,16 +44,17 @@ public class Main {
         byte bottles = 16;
         byte time1 = 2;
         byte time2 = 20;
-        int efficience1 = bottles / time1 * time2;
+        int productivitePerMinute = bottles / time1;
+        int efficience1 = productivitePerMinute * time2;
         System.out.println ("За 20 минут машина произвела " + efficience1 + " штук бутылок");
         short time3 = 24 * 60;
-        int efficience2 = bottles / time1 * time3;
+        int efficience2 = productivitePerMinute * time3;
         System.out.println ("За сутки машина произвела " + efficience2 + " штук бутылок");
         short time4 = 24 * 60 * 3;
-        int efficience3 = bottles / time1 * time4;
+        int efficience3 = productivitePerMinute * time4;
         System.out.println ("За 3 дня машина произвела " + efficience3 + " штук бутылок");
         int time5 = 24 * 60 * 30;
-        int efficience4 = bottles / time1 * time5;
+        int efficience4 = productivitePerMinute * time5;
         System.out.println ("За 1 месяц машина произвела " + efficience4 + " штук бутылок");
 
 
@@ -111,10 +112,6 @@ public class Main {
         int newZpKristina = zpKristina * salaryIncrease / 100;
         int salaryDifferenceKristina = (newZpKristina * 12) - (zpKristina * 12);
         System.out.println ("Кристина теперь получает " + newZpKristina + " рублей. Годовой доход вырос на " + salaryDifferenceKristina + " рублей");
-
-
-
-
 
     }
 
