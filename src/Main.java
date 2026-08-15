@@ -98,6 +98,7 @@ public class Main {
         float daysMedium = loseWeightInGr / massOneDay3;
         System.out.println ("Если в день терять " + massOneDay3 + "гр, то потребуется " + daysMedium + " дней");
 
+
         int zpMasha = 67760;
         byte salaryIncrease = 100 + 10;
         int newZpMasha = zpMasha * salaryIncrease / 100;
